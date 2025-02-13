@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=Molengo&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Molengo', sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%; /* Usamos 100% para que o container se ajuste ao tamanho da tela */
+    position: relative;
+    max-width: 2000px; /* Define uma largura máxima para telas maiores */
+    margin: 0 auto; /* Centraliza o container em telas grandes */
+}
+
+.page {
+    width: 100%;
+    height: auto; /* Usamos auto para que a altura seja ajustada pelo conteúdo */
+    position: relative;
+    min-height: 1055px; /* Altura mínima para evitar que as páginas colapsem */
+}
+
+/*Página 1*/
+.page-1 .background-page-1{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #49B6B2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    min-height: 1055px;
+}
+
+.page-1 .text-content-1 {
+    width: 90%; /* Use porcentagem para ajustar ao tamanho da tela */
+    max-width: 1609px;
+    left: 5%;
+    top: 20%;
+    position: absolute;
+    height: auto;
+}
+
+.page-1 .title-1 {
+    width: 100%;
+    font-size: 6em; /* Use em para que a fonte se ajuste ao tamanho da tela */
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 1;
+}
+
+.page-1 .subtitle-1 {
+    width: 80%;
+    left: 5%;
+    top: auto;
+    margin-top: 5em;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: left;
+}
+.page-1 .logo-frame-1 {
+    width: 25%;
+    max-width: 480px;
+    height: auto;
+    aspect-ratio: 1 / 0.8866541026;
+    top: 60%;
+    right: 2%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.page-1 .logo-frame-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.opacity-30 {
+    opacity: 0.30;
+}
+
+.opacity-80 {
+    opacity: 0.80;
+}
+
+.page-1 .menu-1 {
+    width: 80%;
+    max-width: 987px;
+    height: auto;
+    top: 4%;
+    left: 22%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+.page-1 .menu-item {
+    height: auto;
+    top: auto;
+    position: relative;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.page-1 .register-button {
+    width: auto;
+    height: auto;
+    position: relative;
+    
+}
+.page-1 .register-button-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(0deg, rgba(30, 170, 167.50, 0.75) 0%, rgba(30, 170, 167.50, 0.75) 100%), linear-gradient(0deg, rgba(30, 170, 167.50, 0.75) 0%, rgba(30, 170, 167.50, 0.75) 100%);
+    box-shadow: 0px 4px 4px rgba(2, 36, 43, 0.95);
+    border-radius: 45px;
+    border: 0px solid;
+    padding: 0.0010em 0.0100em;
+}
+
+.page-1 .register-button-text {
+    width: auto;
+    height: auto;
+    position: relative;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+/*Página 2*/
+.page-2 .background-page-2{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: black;
+  min-height: 1055px;
+}
+.page-2 .photo-frame-2 {
+   width: 40%;
+    max-width: 696px;
+    height: auto;
+    aspect-ratio: 1 / 1.1207;
+    left: 5%;
+    top: 10%;
+    position: absolute;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 59px;
+}
+
+.page-2 .text-content-2 {
+  width: 45%;
+    left: 50%;
+    top: 10%;
+    position: absolute;
+  padding-left: 2%;
+}
+.page-2 .title-2 {
+    width: 100%;
+    position: relative;
+    color: #1EAAA7;
+    font-size: 3em;
+    font-weight: 00;
+    word-wrap: break-word;
+}
+
+.page-2 .subtitle-2 {
+  width: 100%;
+    left: 0px;
+    top: auto;
+  margin-top: 1em;
+    position: relative;
+    color: #BCB3B3;
+    font-size: 1.2em;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/*Página 3*/
+
+.page-3 .background-page-3{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #1EAAA7;
+    min-height: 1035px;
+}
+
+.page-3 .logo-frame-3 {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.page-3 .logo-frame-img-3 {
+  width: 100%;
+  height: auto;
+    max-height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.page-3 .logo-frame-3 > img:nth-child(2) {
+   max-height: 90%;
+}
+
+/*Página 4*/
+
+.page-4 .background-page-4{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: white;
+    min-height: 1055px;
+}
+
+.page-4 .logo-frame-4 {
+  width: 50%;
+  max-width: 801px;
+  height: auto;
+    aspect-ratio: 1 / 0.9313;
+    left: 5%;
+    top: 10%;
+    position: absolute;
+}
+.page-4 .logo-frame-img-4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.page-4 .text-content-4 {
+   width: 90%;
+    max-width: 1598px;
+    left: 5%;
+    top: 10%;
+    position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+}
+.page-4 .title-4 {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: #49B6B2;
+    font-size: 3em;
+    font-weight: 400;
+    word-wrap: break-word;
+  margin-bottom: 1em;
+}
+
+.page-4 .subtitle-4-1 {
+  width: 30%;
+    position: relative;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 400;
+    word-wrap: break-word;
+    align-self: flex-end;
+}
+
+.page-4 .title-4-1 {
+    width: 30%;
+    position: relative;
+    color: black;
+    font-size: 1.8em;
+    font-weight: 700;
+    word-wrap: break-word;
+      align-self: flex-end;
+}
+
+.page-4 .subtitle-4-2 {
+   width: 30%;
+    position: relative;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 400;
+    word-wrap: break-word;
+     margin-top: 2em;
+}
+.page-4 .subtitle-4-3 {
+    width: 30%;
+    position: relative;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 400;
+    word-wrap: break-word;
+     margin-top: 2em;
+}
+.page-4 .subtitle-4-4 {
+   width: 30%;
+    position: relative;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 400;
+    word-wrap: break-word;
+     margin-top: 2em;
+}
+.page-4 .title-4-2 {
+  width: 30%;
+    position: relative;
+    color: black;
+    font-size: 1.8em;
+    font-weight: 700;
+    word-wrap: break-word;
+    align-self: flex-end;
+    margin-top: 2em;
+}
+.page-4 .title-4-3 {
+    width: 30%;
+    position: relative;
+    color: black;
+    font-size: 1.8em;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-top: 2em;
+}
+.page-4 .title-4-4 {
+   width: 30%;
+    position: relative;
+    color: black;
+    font-size: 1.8em;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-top: 2em;
+}
+/*Página 5*/
+
+.page-5 .background-page-5{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.page-5 .background-page-5 > div{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: rgba(15.91, 208.25, 204.82, 0.55);
+    min-height: 1055px;
+}
+.page-5 .photo-frame-5 {
+    width: 60%;
+    max-width: 1021px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    right: 0;
+    top: 0;
+    position: absolute;
+    box-shadow: 10px 10px 10px;
+    filter: blur(10px)
+}
+
+.page-5 .text-content-5 {
+    width: 90%;
+    max-width: 1451px;
+    left: 5%;
+    top: 10%;
+    position: absolute;
+}
+.page-5 .text-content-5 > div{
+    width: 100%;
+    position: absolute;
+    background: rgba(73, 182, 178, 0.58);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    border: 1px solid;
+    padding: 1em;
+}
+.page-5 .title-5 {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.page-5 .input-container-5 {
+    width: 35%;
+    max-width: 595px;
+    height: auto;
+    left: 5%;
+    position: absolute;
+    margin-top: 3em;
+}
+.page-5 .name-input {
+    top: 30%;
+}
+.page-5 .email-input {
+    top: 50%;
+}
+.page-5 .input-bg {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: #10D0CD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 45px;
+    border: 1px solid;
+    padding: 0.5em;
+}
+.page-5 .email-input > .input-bg {
+    border: 1px #49B6B2 solid;
+}
+.page-5 .input-label {
+    width: auto;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.page-5 .input-placeholder {
+    width: auto;
+    position: relative;
+    color: #1EAAA7;
+    font-size: 1em;
+    font-weight: 400;
+    word-wrap: break-word;
+  margin-top: 0.5em;
+}
+
+.page-5 .send-button {
+    width: auto;
+    height: auto;
+    left: 5%;
+    top: auto;
+    position: absolute;
+  margin-top: 3em;
+}
+.page-5 .send-button-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(0deg, rgb(30, 170, 167, 0.75) 100%, rgb(30, 170, 167, 0.75) 75%), linear-gradient(0deg, rgba(30, 170, 167, 0.75) 75%, rgba(30, 170, 167, 0.95) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75) inset;
+    border-radius: 45px;
+    border: 0px solid;
+    padding: 0.5em 1em;
+}
+.page-5 .send-button-text{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+/*Página 6*/
+.page-6 {
+  top: 0;
+  min-height: 234px;
+}
+.page-6 .background-page-6{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: white;
+    min-height: 234px;
+}
+.page-6 .copyright {
+  width: 30%;
+    left: 40%;
+    top: 60%;
+    position: absolute;
+  transform: translate(-50%,-50%);
+}
+.page-6 .copyright-text{
+  width: 100%;
+    height: auto;
+    position: relative;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.page-6 .copyright-icon{
+    width: auto;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+.page-6 .privacy-terms{
+   width: auto;
+    height: auto;
+    left: 5%;
+    top: 60%;
+    position: absolute;
+  transform: translate(0,-50%);
+    color: black;
+    font-size: 1.2em;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.page-6 .social-icons{
+    width: auto;
+    height: auto;
+    right: 5%;
+  top: 20%;
+    position: absolute;
+   display: flex;
+}
+.page-6 .social-icon-bg {
+    width: 2em;
+    height: 2em;
+    position: relative;
+  margin-right: 0.5em;
+}
+
+
+.page-6 .social-icon-bg > div{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    background: rgb(255, 254, 254);
+}
+
+.page-6 .social-icon {
+  width: 2em;
+    height: 2em;
+  margin-right: 0.5em;
+   position: relative;
+  top: 0.1em;
+}
+
+.page-6 .back-to-top {
+  width: auto;
+    height: auto;
+    position: absolute;
+  right: 5%;
+    top: 60%;
+  transform: translate(0,-50%);
+  display: flex;
+  align-items: center;
+}
+.page-6 .back-to-top-icon {
+  width: auto;
+    height: auto;
+    position: relative;
+  margin-right: 0.2em;
+}
+.page-6 .back-to-top-icon-img{
+    width: 2em;
+    height: 2em;
+    position: relative;
+}
+.page-6 .back-to-top-text{
+ width: auto;
+  height: auto;
+    position: relative;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.page-6 .logo-footer {
+  width: 15%;
+    max-width: 218px;
+    height: auto;
+    aspect-ratio: 1 / 0.8853;
+    left: 5%;
+    top: 20%;
+    position: absolute;
+}
+.page-6 .logo-footer-img {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.page-6 .logo-footer-img:nth-child(1) {
+    opacity: 0.80;
+}
+.page-6 .logo-footer-img:nth-child(2) {
+    opacity: 0.30;
+}
+.page-6 .logo-footer-img:nth-child(3) {
+    mix-blend-mode: multiply;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    /* Ajustes para telas menores (tablets, por exemplo) */
+  .page-1 .menu-1{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  .page-1 .menu-1 > div {
+    margin-bottom: 0.5em;
+    }
+   .page-1 .logo-frame-1 {
+      width: 100%;
+      max-width: 100%;
+      top: auto;
+      left: 0;
+      bottom: 0;
+      transform: translateY(0);
+      margin-top: 2em;
+      text-align: center;
+    }
+  .page-2 .photo-frame-2 {
+    width: 80%;
+    left: 10%;
+    top: 5%;
+    }
+  .page-2 .text-content-2{
+     width: 90%;
+    left: 5%;
+    top: 50%;
+    padding-left: 0;
+  }
+  .page-3 .logo-frame-3 > img:nth-child(2) {
+    max-height: 90%;
+  }
+    .page-4 .text-content-4{
+      flex-wrap: wrap;
+    }
+    .page-4 .subtitle-4-1,
+    .page-4 .title-4-1,
+    .page-4 .subtitle-4-2,
+    .page-4 .subtitle-4-3,
+    .page-4 .subtitle-4-4,
+    .page-4 .title-4-2,
+    .page-4 .title-4-3,
+    .page-4 .title-4-4
+    {
+      width: 100%;
+      margin-bottom: 1em;
+    }
+   .page-4 .logo-frame-4{
+      top: 5%;
+    }
+     .page-5 .photo-frame-5 {
+        width: 80%;
+       top: 15%;
+    }
+  .page-5 .text-content-5{
+     top: 10%;
+    }
+   .page-5 .input-container-5 {
+       width: 80%;
+      max-width: 80%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .page-5 .name-input {
+        top: 40%;
+    }
+    .page-5 .email-input {
+        top: 70%;
+    }
+  .page-6 .copyright{
+    width: 100%;
+    left: 50%;
+    top: 70%;
+  }
+  .page-6 .privacy-terms, .page-6 .back-to-top, .page-6 .social-icons{
+    top: 80%;
+  }
+   .page-6 .logo-footer {
+       top: 15%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    /* Ajustes para telas menores (celulares, por exemplo) */
+    .page-1 .title-1 {
+        font-size: 4em; /* Reduzir o tamanho da fonte para telas menores */
+    }
+  .page-1 .subtitle-1 {
+    font-size: 1.5em;
+    }
+    .page-2 .title-2 {
+        font-size: 2.2em; /* Reduzir o tamanho da fonte para telas menores */
+    }
+  .page-2 .subtitle-2 {
+    font-size: 1em;
+    }
+     .page-4 .title-4 {
+        font-size: 2em; /* Reduzir o tamanho da fonte para telas menores */
+    }
+  .page-5 .title-5{
+       font-size: 2.2em; /* Reduzir o tamanho da fonte para telas menores */
+    }
+    .page-5 .input-container-5 {
+        width: 80%;
+    }
+}
